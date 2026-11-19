@@ -1,17 +1,24 @@
-Air Force TACP/JTAC and comms/network operations supervisor (Air Force Special Warfare), Marine Corps veteran. B.A. Computer Science, CU Boulder. Network+ · Security+ (Dec 2026).
+# Daryl Melton
 
-**Looking for:** SkillBridge internship in cybersecurity, networking, or AI & automation. Active Secret Clearance. Available Jan–May 2027, relocating to San Antonio, TX.
+Network operations and communications supervisor in the U.S. Air Force (Special Warfare), moving into cybersecurity, networking, and AI-enabled automation. B.A. Computer Science, CU Boulder. Network+ · Security+ (Dec 2026).
 
-In my free time, I self-host things. The big one is **HushTube** (pinned): a spare laptop as a private YouTube proxy for my whole house, with no trackers, nothing exposed to the internet, and byte-level playback verification. Built with agentic AI workflows: architecture, review, and the hard debugging are mine, coding agents do the typing. The Android app is on v1.26 and gets used daily.
+## What I'm building
 
-I also run a home AI server with quantized open-weight models. On a squadron server I built a RAG tool that saves my team 20–30 minutes per lookup, keeping sensitive documents on-prem.
+**[HushTube](https://github.com/dsmelton/hushtube)**: a self-hosted private YouTube proxy with a native Android app. A spare Linux laptop fetches everything so my phone never talks to Google. Nothing is exposed to the internet; access is Tailscale-only with TLS. An end-to-end verify script checks real video bytes, not just container health.
+`Kotlin` `Media3/ExoPlayer` `Flask` `Podman` `Invidious` `PostgreSQL` `nginx` `Tailscale` `SELinux`
 
-Led a 13-person team fielding a mobile command-and-control network alongside a 10,000-person Army division. Over my military career I've trained 110 people, seven of whom earned Network+.
+**Home AI server**: quantized open-weight models running locally, which I use as self-hosted coding agents.
 
-**Off the clock:** lifting weights, PC gaming, guitar, and cocktail mixing at home. I'm a car guy in both directions: an FK8 Type R in the garage now, and a habit of fixing up older cars — the favorite so far was a 1996 Corvette. I read philosophy to keep the other side of my brain employed. Picking up new skills is the hobby underneath the hobbies — most of my life decisions started as "I wonder if I could learn that."
+At work I've built an offline Python network configuration generator and a self-hosted RAG reference tool. Those aren't public.
 
-**Happy to talk about:** self-hosting, agentic dev workflows, TACP/JTAC life, and the military-to-tech transition.
+## How I work
 
-**Comfort is a slow failure with great uptime.**
+I build with agentic AI workflows. The architecture, review, and hard debugging are mine, and coding agents do the typing. Every change gets verified before it ships, and failures get written up with the root cause and fix.
 
-[LinkedIn](https://www.linkedin.com/in/daryl-melton)
+## Tools
+
+Python · Kotlin · Linux · Cisco IOS · Podman/containers · Flask · PostgreSQL · nginx · Tailscale/VPN · RAG · local LLMs
+
+## Contact
+
+[LinkedIn](https://www.linkedin.com/in/daryl-melton) · Open to SkillBridge (Jan–May 2027) and full-time roles in San Antonio, TX

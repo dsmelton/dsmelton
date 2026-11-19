@@ -9,7 +9,14 @@ Network operations and communications supervisor in the U.S. Air Force (Special 
 
 **Home AI server**: quantized open-weight models running locally, which I use as self-hosted coding agents.
 
-At work I've built an offline Python network configuration generator and a self-hosted RAG reference tool. Those aren't public.
+## Work tools (not public)
+
+**Automated Report-Drop Simulator**: a desktop app that releases timed situation reports into IRC chat rooms during training exercises, replacing manual copy-paste by exercise controllers. Three timing modes (scheduled, fixed interval, randomized), sequential/random/shuffle ordering, dry-run and schedule previews, flood-control pacing, and a GUI for non-technical users. Ships as a single Windows .exe for offline, air-gapped machines.
+`Python` `IRC` `GUI` `PyInstaller`
+
+**Network Configuration Generator**: offline Python tool that generates router, switch, and radio configurations for a mobile network stack. It has saved 100 hours of manual configuration and lets operators restore a dropped configuration right away.
+
+**RAG reference tool**: a self-hosted LLM that consolidates technical manuals and procedures from 12+ sources into one searchable resource, with no documents sent to outside AI services.
 
 ## How I work
 

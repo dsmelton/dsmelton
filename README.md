@@ -4,10 +4,18 @@ Network operations and communications supervisor in the U.S. Air Force (Special 
 
 ## What I'm building
 
-**[HushTube](https://github.com/dsmelton/hushtube)**: a self-hosted private YouTube proxy with a native Android app. A spare Linux laptop fetches everything so my phone never talks to Google. Nothing is exposed to the internet; access is Tailscale-only with TLS. An end-to-end verify script checks real video bytes, not just container health.
+**[HushTube](https://github.com/dsmelton/hushtube)**: a self-hosted private YouTube proxy with a native Android app. A Linux desktop at home fetches everything so my phone never talks to Google. Nothing is exposed to the internet; access is Tailscale-only with TLS. An end-to-end verify script checks real video bytes, not just container health.
 `Kotlin` `Media3/ExoPlayer` `Flask` `Podman` `Invidious` `PostgreSQL` `nginx` `Tailscale` `SELinux`
 
-**Home AI server**: quantized open-weight models running locally, which I use as self-hosted coding agents.
+**Home AI server**: the same desktop also runs a quantized open-weight model on its own GPU, plus Hermes Agent, which I use as a self-hosted coding agent. I reach it from my phone over end-to-end encrypted Matrix (on a homeserver I host, with federation off and registration closed) or from a web dashboard. Every service is reachable only over Tailscale, and nothing is exposed to the internet. The agent uses the local model by default, and cloud models are opt-in per session. It all runs on one machine with no redundancy, and everything except remote desktop comes back on its own after a reboot.
+`Fedora` `Podman` `systemd` `Tailscale` `Matrix` `local LLMs`
+
+<details>
+<summary>Architecture diagram</summary>
+<br>
+<p align="center"><img src="assets/home-ai-stack.png" alt="Architecture diagram: phone, laptop and other tailnet devices reach Matrix, the Hermes dashboard, a local model server, remote desktop and HushTube through Tailscale" width="900"></p>
+<p align="center"><a href="assets/home-ai-stack.html">HTML source</a></p>
+</details>
 
 ## Work tools (not public)
 

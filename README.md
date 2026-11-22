@@ -1,6 +1,6 @@
 # Daryl Melton
 
-Network operations and communications supervisor in the U.S. Air Force (Special Warfare), moving into cybersecurity, networking, and AI-enabled automation. B.A. Computer Science, CU Boulder. Network+ · Security+ (Dec 2026).
+Network operations and communications supervisor in the U.S. Air Force (TACP / AF Special Warfare), moving into cybersecurity, networking, and AI-enabled automation. B.A. Computer Science, CU Boulder. Network+ · Security+ (Dec 2026).
 
 ## What I'm building
 

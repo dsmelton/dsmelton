@@ -11,7 +11,7 @@ Network operations and communications supervisor in the U.S. Air Force (Special 
 `Fedora` `Podman` `systemd` `Tailscale` `Matrix` `local LLMs`
 
 <p align="center"><a href="https://dsmelton.github.io/home-ai-stack/"><img src="assets/home-ai-stack.png" alt="Architecture diagram: phone, laptop and other tailnet devices reach Matrix, the Hermes dashboard, a local model server, remote desktop and HushTube through Tailscale" width="900"></a></p>
-<p align="center"><a href="https://dsmelton.github.io/home-ai-stack/">Interactive version (zoom and pan)</a> · <a href="assets/home-ai-stack.html">HTML source</a></p>
+<p align="center"><a href="https://dsmelton.github.io/home-ai-stack/">Interactive version (zoom and pan)</a></p>
 
 ## Work tools (not public)
 
